@@ -13,5 +13,9 @@ namespace EntityLayer.Concrete
         public string CategoryDescription { get; set; }
         public bool  CategoryStatus { get; set; }
 
+
+        //1-Category sınıfında ICollectıon türünde bir property tanımladık ve sen Heading sınıfıyla ilişkili olacaksın dedik.
+        public ICollection<Heading> Headings { get; set; }
+
     }
 }

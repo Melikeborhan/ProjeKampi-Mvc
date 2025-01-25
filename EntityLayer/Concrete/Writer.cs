@@ -15,5 +15,17 @@ namespace EntityLayer.Concrete
         public string WriterMail { get; set; }
         public string WriterPassword { get; set; }
 
+
+
+        //Bire çok ilişki için ICollection kullanılır
+
+
+        //Writer-Heading ilişkisi
+        public ICollection<Heading> Headings { get; set; }
+
+
+
+        //Writer-Content ilişkisi
+        public ICollection<Content> Contents { get; set; }
     }
 }

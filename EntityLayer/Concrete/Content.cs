@@ -11,7 +11,23 @@ namespace EntityLayer.Concrete
         public int ContentID { get; set; }
         public string ContentValue { get; set; }
         public DateTime ContentDate { get; set; }
-        //ContentYazar
-        //ContentBaşlık
+
+        //Bire çok ilişki için ICollection kullanılır
+
+
+        //Burada Heading-Content ile ilişkisi
+
+        //heading ile ilişkili olacak HeadinID alanı
+        public int HeadingID { get; set; }
+        //Burada Heading ile ilişkili olacak
+        public virtual Heading Heading { get; set; }
+
+
+        //Burada Writer-Content ile ilişkisi
+        public int WriterID { get; set; }
+        public virtual Writer Writer { get; set; }
+
+
+
     }
 }
