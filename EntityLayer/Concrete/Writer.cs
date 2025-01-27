@@ -27,5 +27,6 @@ namespace EntityLayer.Concrete
 
         //Writer-Content ilişkisi
         public ICollection<Content> Contents { get; set; }
+
     }
 }
