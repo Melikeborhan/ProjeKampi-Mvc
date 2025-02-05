@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ProjeKampi-Mvc")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+94c01c8e4a3e11c8aeb1f24753d2e7252aac89a9")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d847fd57d6ffeb0f64ddccc08044591b71d19c0a")]
 [assembly: System.Reflection.AssemblyProductAttribute("ProjeKampi-Mvc")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ProjeKampi-Mvc")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
